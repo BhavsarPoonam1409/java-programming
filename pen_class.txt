@@ -1,0 +1,27 @@
+public class pen_class{
+	
+	String Name;
+	String color;
+	
+	public void write(){
+		System.out.println("this is write method");
+	}
+	
+	static void hii(){
+		System.out.println("this is hii method");
+		
+	}
+	
+	public static void main(String[]  args){
+		pen p1 = new pen();
+		
+		p1.Name = "Poonam"; //p1 object
+		p1.color = "Green";
+		
+		p1.write();
+		
+		hii();
+		print(p1.Name);
+		print(p1.color);
+	}
+}
